@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sinau"
+version = "0.1.0"
+description = ""
+authors = ["Gunung Pambudi W. <gunungpambudw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^7.31.0"
+Django = "^4.0.1"
+rich = "^10.16.2"
+dearpygui = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+black = "^21.10b0"
+
+[tool.poetry.scripts]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
