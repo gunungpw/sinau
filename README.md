@@ -1,0 +1,2 @@
+# sinau
+Learn Python
