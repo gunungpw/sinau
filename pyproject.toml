@@ -14,6 +14,7 @@ Faker = "^11.3.0"
 fastapi = "^0.72.0"
 uvicorn = {extras = ["standard"], version = "^0.17.0"}
 psutil = "^5.9.0"
+selenium = "^4.1.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
